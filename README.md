@@ -12,7 +12,7 @@ OpenRemote allows super-users to create Groovy-based rulesets through the Rules 
 - **Groovy Sandbox:** 4.2.2
 - **Nashorn:** 15.7
 
-Version is derived from Git tags at build time via the `axion-release` Gradle plugin. The dependency fingerprint above matches the latest available source as of 2025.
+Version is derived from Git tags at build time via the `axion-release` Gradle plugin.
 
 ## Severity
 
