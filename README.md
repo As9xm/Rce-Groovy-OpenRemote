@@ -73,8 +73,3 @@ python3 openremote_rce_groovy.py --target http://<host>:8080 --realm master \
 
 - Super-user credentials for the target OpenRemote instance
 - Python 3.x with `requests`
-
-## Remediation
-
-- Register the `GroovyDenyAllFilter` (or an equivalent allowlist-based filter) before executing any user-supplied Groovy script.
-- Restrict access to dangerous classes like `java.lang.Runtime`, `java.lang.ProcessBuilder`, `java.io.File`, and `java.net.*` within the Groovy sandbox.
